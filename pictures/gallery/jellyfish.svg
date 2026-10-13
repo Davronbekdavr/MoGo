@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 960">
+  <defs>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#00dce9"/><stop offset=".17" stop-color="#009fe3"/><stop offset=".52" stop-color="#0053b7"/><stop offset="1" stop-color="#071d61"/></linearGradient>
+    <radialGradient id="bell"><stop stop-color="#e3ffff"/><stop offset=".36" stop-color="#9ffcff"/><stop offset=".7" stop-color="#44dcff"/><stop offset="1" stop-color="#799bff" stop-opacity=".25"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <path fill="url(#water)" d="M0 0h480v960H0z"/>
+  <path fill="none" stroke="#a5faff" stroke-opacity=".45" stroke-width="6" d="M0 26q75 19 150 0t150 0 180 0M0 50q70 17 140 0t140 0 200 0M0 77q90 17 180 0t180 0 120 0"/>
+  <ellipse cx="249" cy="479" rx="111" ry="91" fill="#59f6ff" opacity=".55" filter="url(#glow)"/>
+  <path fill="url(#bell)" d="M135 476c5-78 53-127 117-127 65 0 113 49 118 127-27 39-72 59-119 59s-90-20-116-59Z"/>
+  <path fill="#c9ffff" fill-opacity=".75" d="M158 460c11-58 42-87 90-91-35 23-52 49-58 91z"/>
+  <path fill="none" stroke="#8afaff" stroke-width="7" stroke-linecap="round" d="M164 531c-17 71-2 105 26 140 15 19 18 54 5 91M207 539c-4 56 20 86 12 128-6 32 4 60 25 87M248 540c18 45 7 80 28 112 19 28 14 58-1 93M286 535c-1 63 41 83 39 131-1 30-14 54-9 88M326 525c18 48 8 83 28 111 19 28 12 54-3 78"/>
+  <path fill="none" stroke="#d4ffff" stroke-opacity=".62" stroke-width="4" d="M180 530c-27 52-31 88-16 126M230 538c-19 53-4 90 13 119M270 538c-4 40 13 69 17 101M309 533c22 44 22 74 11 108"/>
+</svg>

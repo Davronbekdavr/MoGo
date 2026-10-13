@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250">
+  <defs>
+    <linearGradient id="table" x2="0" y2="1">
+      <stop stop-color="#dedbd2"/>
+      <stop offset="1" stop-color="#f4f0e9"/>
+    </linearGradient>
+    <linearGradient id="lens" x2="1" y2="1">
+      <stop stop-color="#394144"/>
+      <stop offset=".5" stop-color="#15191c"/>
+      <stop offset="1" stop-color="#565b5d"/>
+    </linearGradient>
+  </defs>
+  <path fill="#d2ddd8" d="M0 0h380v106H0z"/>
+  <path fill="#557778" d="M0 0h188v45H0z"/>
+  <path fill="#e8ece8" d="M0 37h380v55H0z"/>
+  <path fill="#262f30" d="M15 28h160v34H15z"/>
+  <path fill="#9bada7" d="M25 32h136v22H25z"/>
+  <path fill="#fff" fill-opacity=".4" d="m36 35 55 0 27 18H64z"/>
+  <path fill="url(#table)" d="M0 85h380v165H0z"/>
+  <path fill="#9b9b8c" d="M0 86h380v8H0z"/>
+  <path fill="#b8c8ad" d="M279 0h101v97H279z"/>
+  <path fill="#7d9a6b" d="M310 47c-32-9-29-35-8-45 17 15 18 28 8 45ZM330 48c-1-29 13-43 39-47 1 24-11 39-39 47ZM316 54c-27-17-25-33-13-43 20 13 24 27 13 43ZM339 53c10-28 23-35 41-34-3 23-18 35-41 34Z"/>
+  <path fill="#e2e6d9" d="M304 50h44l-5 8h-35z"/>
+  <path fill="#bdc0b8" d="m301 56 48 0-8 28h-32z"/>
+  <path fill="#272b2c" d="M179 157h169v69H179z"/>
+  <path fill="#414748" d="M193 166h142v45H193z"/>
+  <circle cx="115" cy="168" r="64" fill="#181d20"/>
+  <circle cx="115" cy="168" r="50" fill="#42494c"/>
+  <circle cx="115" cy="168" r="42" fill="url(#lens)"/>
+  <circle cx="115" cy="168" r="28" fill="#111719"/>
+  <circle cx="115" cy="168" r="19" fill="#283b3e"/>
+  <circle cx="105" cy="158" r="9" fill="#7a9896" fill-opacity=".55"/>
+  <path fill="#212629" d="M49 119h131l-9 18H58z"/>
+  <path fill="#343b3d" d="M64 109h34l8 11H56z"/>
+  <path fill="#eee5d6" d="M224 115h91v67h-91z"/>
+  <path fill="#e2d8c6" d="M233 125h73v47h-73z"/>
+  <path fill="#424b4c" d="m250 142 35 10-6 20-35-10z"/>
+  <path fill="#f6f0e5" d="m260 144 16 5-2 8-16-5z"/>
+  <path fill="#78918a" d="M265 0h8v99h-8z"/>
+</svg>

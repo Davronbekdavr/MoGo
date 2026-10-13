@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs><radialGradient id="dome"><stop stop-color="#f0e8d8"/><stop offset=".45" stop-color="#d8d1c8"/><stop offset="1" stop-color="#b8a99c"/></radialGradient></defs>
+  <path fill="#d1c5b8" d="M0 0h480v480H0z"/>
+  <circle cx="239" cy="254" r="225" fill="url(#dome)"/>
+  <circle cx="239" cy="254" r="180" fill="none" stroke="#8c776b" stroke-width="19"/>
+  <circle cx="239" cy="254" r="134" fill="none" stroke="#eee7dc" stroke-width="12"/>
+  <circle cx="239" cy="254" r="89" fill="none" stroke="#9b8170" stroke-width="12"/>
+  <circle cx="239" cy="254" r="44" fill="#c98a69"/>
+  <g fill="none" stroke="#705e55" stroke-width="12">
+    <path d="M239 29v450M14 254h450M80 95l318 318M398 95 80 413"/>
+    <path d="m62 165 177 89 178-89M62 343l177-89 178 89"/>
+  </g>
+  <path fill="#f38181" fill-opacity=".84" d="M0 0h480v480H0z"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="6">
+    <circle cx="239" cy="254" r="180"/><circle cx="239" cy="254" r="134"/><path d="M239 29v450M14 254h450"/>
+  </g>
+</svg>

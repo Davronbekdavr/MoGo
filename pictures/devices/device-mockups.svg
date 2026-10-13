@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470">
+  <defs>
+    <linearGradient id="screen" x2="0" y2="1">
+      <stop stop-color="#f8a2a0"/>
+      <stop offset=".57" stop-color="#f5c39a"/>
+      <stop offset="1" stop-color="#f6dc91"/>
+    </linearGradient>
+    <linearGradient id="photo" x2="0" y2="1">
+      <stop stop-color="#f0e6dc"/>
+      <stop offset=".55" stop-color="#95aaa6"/>
+      <stop offset="1" stop-color="#464a4c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+      <feOffset dy="5"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="tablet-screen"><rect x="151" y="90" width="321" height="270" rx="2"/></clipPath>
+    <clipPath id="phone-screen"><rect x="443" y="213" width="116" height="271" rx="3"/></clipPath>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="132" y="38" width="360" height="420" rx="26" fill="#fdfdfd" stroke="#e8e8e8" stroke-width="2"/>
+    <circle cx="311" cy="57" r="2.5" fill="#d9dcdd"/>
+    <circle cx="327" cy="57" r="2.5" fill="#e7e8e8"/>
+    <rect x="145" y="83" width="333" height="284" rx="3" fill="#2e3337"/>
+    <g clip-path="url(#tablet-screen)">
+      <rect x="151" y="90" width="321" height="270" fill="#fff"/>
+      <rect x="151" y="90" width="321" height="270" fill="#fff"/>
+      <path fill="url(#screen)" d="M151 90h321v74H151z"/>
+      <text x="311" y="110" fill="#fff" font-family="Arial,sans-serif" font-size="6" text-anchor="middle">MoGo</text>
+      <text x="311" y="126" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">WELCOME TO MOGO</text>
+      <path stroke="#fff" stroke-width="1" d="M298 136h26"/>
+      <rect x="151" y="164" width="321" height="57" fill="#fff"/>
+      <text x="311" y="175" fill="#333" font-family="Arial,sans-serif" font-size="5" font-weight="700" text-anchor="middle">STORY ABOUT US</text>
+      <rect x="162" y="181" width="90" height="29" fill="url(#screen)"/>
+      <rect x="259" y="181" width="90" height="29" fill="#758e86"/>
+      <rect x="356" y="181" width="104" height="29" fill="#dfe5e1"/>
+      <path fill="#8fe0d1" d="M151 221h321v38H151z"/>
+      <text x="191" y="242" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">42</text>
+      <text x="253" y="242" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">123</text>
+      <text x="321" y="242" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">15</text>
+      <text x="387" y="242" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">99</text>
+      <text x="443" y="242" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">24</text>
+      <text x="311" y="276" fill="#555" font-family="Arial,sans-serif" font-size="5" font-weight="700" text-anchor="middle">AMAZING SERVICES</text>
+      <g fill="#95e1d3">
+        <rect x="164" y="289" width="6" height="6"/><rect x="267" y="289" width="6" height="6"/><rect x="370" y="289" width="6" height="6"/>
+        <rect x="164" y="321" width="6" height="6"/><rect x="267" y="321" width="6" height="6"/><rect x="370" y="321" width="6" height="6"/>
+      </g>
+      <g stroke="#ddd" stroke-width="1">
+        <path d="M180 292h69M180 297h53M283 292h69M283 297h54M386 292h60M386 297h48M180 324h69M180 329h53M283 324h69M283 329h54M386 324h60M386 329h48"/>
+      </g>
+    </g>
+    <circle cx="311" cy="409" r="19" fill="#fff" stroke="#e2e2e2" stroke-width="2"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="426" y="177" width="151" height="307" rx="24" fill="#fff" stroke="#d9dcdd" stroke-width="2"/>
+    <rect x="438" y="207" width="127" height="282" rx="4" fill="#292e32"/>
+    <g clip-path="url(#phone-screen)">
+      <rect x="443" y="213" width="116" height="271" fill="url(#photo)"/>
+      <path fill="#dbd5cb" d="M443 213h116v46l-38-14-25 21-53-9z"/>
+      <path fill="#f3f0e9" d="m443 243 43-16 29 13 44-12v39H443z"/>
+      <path fill="#899d98" d="M443 267 478 250l30 13 51-22v83H443z"/>
+      <path fill="#566c69" d="m443 286 32-17 29 9 55-25v96H443z"/>
+      <path fill="#374341" d="m443 323 43-24 30 8 43-19v77H443z"/>
+      <path fill="#242d2c" d="m443 355 39-35 31 12 46-25v177H443z"/>
+      <path fill="#d3d0c8" d="m443 386 46-36 26 17 44-42v157H443z"/>
+      <path fill="#778681" d="M443 427 481 391l24 21 54-39v111H443z"/>
+      <path fill="#313b3a" d="M443 454 475 418l20 19 64-46v93H443z"/>
+      <path fill="#efece7" d="M443 213h116v18H443z"/>
+      <text x="501" y="225" fill="#363a3b" font-family="Arial,sans-serif" font-size="5" text-anchor="middle">9:41  •••  100%</text>
+    </g>
+    <circle cx="501" cy="194" r="2.5" fill="#aaa"/>
+    <rect x="486" y="192" width="14" height="3" rx="2" fill="#d3d3d3"/>
+    <circle cx="501" cy="500" r="0" fill="#fff"/>
+    <circle cx="501" cy="499" r="0" fill="#fff"/>
+  </g>
+</svg>

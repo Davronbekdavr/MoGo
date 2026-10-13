@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#80c9f3"/><stop offset="1" stop-color="#e1f2fb"/></linearGradient><linearGradient id="tower" x2="1" y2="0"><stop stop-color="#d5d8d7"/><stop offset=".5" stop-color="#f7f7f5"/><stop offset="1" stop-color="#96aab4"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h480v480H0z"/>
+  <path fill="#f8f9f7" fill-opacity=".45" d="M0 47h129v78H0zM345 38h135v67H345z"/>
+  <path fill="url(#tower)" d="M63 480 209 27h64l146 453z"/>
+  <path fill="#a9b9c0" d="M209 27h64l146 453H239z"/>
+  <path fill="#fff" fill-opacity=".75" d="m229 45 12-1-3 435h-19zM251 47l9 4 96 429h-19z"/>
+  <g stroke="#8198a2" stroke-opacity=".72" stroke-width="5">
+    <path d="m193 78 94 0M181 115l118 0M169 152l141 0M157 189l165 0M145 226l188 0M133 263l211 0M121 300l235 0M109 337l258 0M97 374l282 0M85 411l305 0M73 448l329 0"/>
+  </g>
+  <path fill="#fff" fill-opacity=".25" d="M0 0h480v480H0z"/>
+</svg>

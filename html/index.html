@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e98586">
+    <meta name="description" content="MoGo — creative template">
+    <title>MoGo — Creative Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css?v=3">
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <main id="app" class="page-shell">
+      <!-- ==================== 01. HERO / BOSH SAHIFA ==================== -->
+      <section class="hero" id="intro" aria-labelledby="hero-title">
+        <div class="hero__veil" aria-hidden="true"></div>
+        <div class="hero__inner section_content">
+          <header class="site-header section_content">
+            <a class="brand" href="#intro" aria-label="MoGo home">MoGo</a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+              <span class="visually-hidden" data-i18n="menuOpen">Open menu</span>
+              <span class="menu-toggle__line"></span>
+              <span class="menu-toggle__line"></span>
+              <span class="menu-toggle__line"></span>
+            </button>
+            <nav class="navigation" id="main-navigation" aria-label="Main navigation" data-i18n-aria="mainNavigation">
+              <a class="navigation__link" href="#intro" data-i18n="about">About</a>
+              <a class="navigation__link" href="#service" data-i18n="service">Service</a>
+              <a class="navigation__link" href="#work" data-i18n="work">Work</a>
+              <a class="navigation__link" href="#blog" data-i18n="blog">Blog</a>
+              <a class="navigation__link" href="#contact" data-i18n="contact">Contact</a>
+              <span class="header-icon" aria-hidden="true">
+                <svg viewBox="0 0 20 20" focusable="false">
+                  <path d="M2 3h2l2.1 9.1a1.5 1.5 0 0 0 1.5 1.2h7.1a1.5 1.5 0 0 0 1.4-1.1L18 6H5"></path>
+                  <circle cx="8" cy="17" r="1"></circle>
+                  <circle cx="15" cy="17" r="1"></circle>
+                </svg>
+              </span>
+              <span class="header-icon" aria-hidden="true">
+                <svg viewBox="0 0 20 20" focusable="false">
+                  <circle cx="8.5" cy="8.5" r="5.5"></circle>
+                  <path d="m13 13 4 4"></path>
+                </svg>
+              </span>
+              <label class="language-picker">
+                <span class="visually-hidden" data-i18n="languageName">Choose language</span>
+                <select id="language" name="language" aria-label="Choose language" data-i18n-aria="languageName">
+                  <option value="uz" selected>UZ</option>
+                  <option value="en">EN</option>
+                  <option value="hu">HU</option>
+                </select>
+              </label>
+            </nav>
+          </header>
+
+          <div class="hero-copy">
+            <p class="hero-copy__eyebrow" data-i18n="eyebrow">Creative Template</p>
+            <h1 class="hero-copy__title" id="hero-title">
+              <span data-i18n="welcome">Welcome</span>
+              <span data-i18n="toMogo">to MoGo</span>
+            </h1>
+            <span class="hero-copy__divider" aria-hidden="true"></span>
+            <a class="hero-copy__button" href="#service" data-i18n="learnMore">Learn more</a>
+          </div>
+
+          <nav class="hero-progress" aria-label="Page sections">
+            <a class="hero-progress__item is-active" href="#intro">
+              <span class="hero-progress__rule"></span>
+              <span class="hero-progress__label"><strong>01</strong> <span data-i18n="intro">Intro</span></span>
+            </a>
+            <a class="hero-progress__item" href="#work">
+              <span class="hero-progress__rule"></span>
+              <span class="hero-progress__label"><strong>02</strong> <span data-i18n="work">Work</span></span>
+            </a>
+            <a class="hero-progress__item" href="#about">
+              <span class="hero-progress__rule"></span>
+              <span class="hero-progress__label"><strong>03</strong> <span data-i18n="about">About</span></span>
+            </a>
+            <a class="hero-progress__item" href="#contact">
+              <span class="hero-progress__rule"></span>
+              <span class="hero-progress__label"><strong>04</strong> <span data-i18n="contacts">Contacts</span></span>
+            </a>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ==================== 02. STORY / BIZ HAQIMIZDA ==================== -->
+      <section class="content-section story-section" id="about" aria-labelledby="story-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="whatWeDo">What we do</p>
+            <h2 class="section-heading__title" id="story-title" data-i18n="storyTitle">Story about us</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+            <p class="section-heading__description" data-i18n="storyDescription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </header>
+
+          <div class="story-cards">
+            <a class="story-card" href="#work">
+              <!-- Rasmni almashtirish: pictures/about/workspace-keyboard.png -->
+              <img src="../pictures/about/workspace-keyboard.png" alt="" width="380" height="250">
+              <span class="story-card__overlay">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3 9.4 8.3l-5.8.8 4.2 4.1-1 5.8 5.2-2.8 5.2 2.8-1-5.8 4.2-4.1-5.8-.8L12 3Z"></path>
+                </svg>
+                <span data-i18n="superTeam">Super team</span>
+              </span>
+            </a>
+            <a class="story-card" href="#work" aria-label="See our creative work">
+              <!-- Rasmni almashtirish: pictures/about/workspace-desk.png -->
+              <img src="../pictures/about/workspace-desk.png" alt="" width="380" height="250">
+            </a>
+            <a class="story-card" href="#work" aria-label="See our workspace">
+              <!-- Rasmni almashtirish: pictures/about/office-plant.png -->
+              <img src="../pictures/about/office-plant.png" alt="" width="380" height="250">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 03. STATS / NATIJALAR ==================== -->
+      <section class="stats" id="work" aria-label="Our achievements">
+        <div class="stats__inner section_content">
+          <div class="stat">
+            <strong class="stat__number" data-count="42">42</strong>
+            <span class="stat__label" data-i18n="statProjects">Web design projects</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number" data-count="123">123</strong>
+            <span class="stat__label" data-i18n="statClients">Happy clients</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number" data-count="15">15</strong>
+            <span class="stat__label" data-i18n="statAwards">Award winner</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number" data-count="99">99</strong>
+            <span class="stat__label" data-i18n="statCoffee">Cup of coffee</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number" data-count="24">24</strong>
+            <span class="stat__label" data-i18n="statMembers">Members</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 04. SERVICES / XIZMATLAR ==================== -->
+      <section class="content-section services-section" id="service" aria-labelledby="services-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="weWorkWith">We work with</p>
+            <h2 class="section-heading__title" id="services-title" data-i18n="servicesTitle">Amazing services</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+          </header>
+
+          <div class="services-grid">
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <circle cx="16" cy="16" r="10"></circle><path d="M16 10v6l4 3M5 10l3-3M24 7l3 3M16 3v3M3 16h3M26 16h3"></path>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="photography">Photography</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </article>
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <rect x="5" y="5" width="22" height="22" rx="1"></rect><path d="m9 21 5-6 4 4 3-3 3 5"></path>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="webDesign">Web design</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionTwo">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </article>
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <rect x="4" y="6" width="24" height="17" rx="1"></rect><path d="M12 28h8M16 23v5M10 15l4-4 3 3 5-5"></path>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="creativity">Creativity</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionThree">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </article>
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M5 7 13 4l7 3 7-3v21l-7 3-7-3-8 3V7Z"></path><path d="M13 4v21M20 7v21M8 10l3-1M8 14l3-1M16 12l2 1M16 16l2 1M23 11l2-1M23 15l2-1"></path>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="seo">SEO</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionFour">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+              </div>
+            </article>
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <path d="m4 15 12-10 12 10h-3v12h-7v-8h-5v8H7V15H4Z"></path><path d="M5 28h22"></path>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="cssHtml">CSS/HTML</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionFive">Lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </article>
+            <article class="service-item">
+              <svg class="service-item__icon" viewBox="0 0 32 32" aria-hidden="true">
+                <path d="m16 3 3 3.3 4.5-1 1 4.5L29 12l-2 4 2 4-4.5 2.2-1 4.5-4.5-1L16 29l-3-3.3-4.5 1-1-4.5L3 20l2-4-2-4 4.5-2.2 1-4.5 4.5 1L16 3Z"></path><circle cx="16" cy="16" r="5"></circle>
+              </svg>
+              <div>
+                <h3 class="service-item__title" data-i18n="digital">Digital</h3>
+                <p class="service-item__description" data-i18n="serviceDescriptionSix">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 05. UNIQUE DESIGN / QURILMALAR ==================== -->
+      <section class="device-showcase" id="devices" aria-labelledby="device-title">
+        <div class="device-showcase__inner section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="forAllDevices">For all devices</p>
+            <h2 class="section-heading__title" id="device-title" data-i18n="uniqueDesign">Unique design</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+          </header>
+          <!-- Qurilmalar rasmi: pictures/devices/device-mockups.svg -->
+          <img
+            class="device-showcase__image"
+            src="../pictures/devices/device-mockups.svg"
+            alt=""
+            width="660"
+            height="470"
+          >
+        </div>
+      </section>
+
+      <!-- ==================== 06. WHAT WE DO / BIZ NIMA QILAMIZ ==================== -->
+      <section class="content-section what-we-do" id="what-we-do" aria-labelledby="what-we-do-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="serviceEyebrow">Service</p>
+            <h2 class="section-heading__title" id="what-we-do-title" data-i18n="whatWeDoTitle">What we do</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+            <p class="section-heading__description" data-i18n="whatWeDoDescription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </header>
+
+          <div class="work-details">
+            <!-- Rasmni almashtirish: pictures/services/creative-work-photo.png -->
+            <img
+              class="work-details__image"
+              src="../pictures/services/creative-work-photo.png"
+              alt=""
+              width="600"
+              height="390"
+            >
+            <div class="accordion" data-accordion>
+              <article class="accordion__item is-open">
+                <h3 class="accordion__heading">
+                  <button
+                    class="accordion__trigger"
+                    type="button"
+                    id="accordion-photography"
+                    aria-expanded="true"
+                    aria-controls="panel-photography"
+                  >
+                    <svg class="accordion__icon" viewBox="0 0 32 32" aria-hidden="true">
+                      <rect x="4" y="5" width="24" height="22" rx="1"></rect>
+                      <circle cx="11" cy="12" r="2"></circle>
+                      <path d="m6 24 8-8 5 5 3-3 5 6"></path>
+                    </svg>
+                    <span data-i18n="photography">Photography</span>
+                    <svg class="accordion__chevron" viewBox="0 0 16 16" aria-hidden="true">
+                      <path d="m3 10 5-5 5 5"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  class="accordion__panel"
+                  id="panel-photography"
+                  role="region"
+                  aria-labelledby="accordion-photography"
+                >
+                  <p data-i18n="accordionPhotography">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </article>
+              <article class="accordion__item">
+                <h3 class="accordion__heading">
+                  <button
+                    class="accordion__trigger"
+                    type="button"
+                    id="accordion-creativity"
+                    aria-expanded="false"
+                    aria-controls="panel-creativity"
+                  >
+                    <svg class="accordion__icon" viewBox="0 0 32 32" aria-hidden="true">
+                      <path d="M8 4v24M16 4v24M24 4v24"></path>
+                      <path d="M5 10h6M13 20h6M21 13h6"></path>
+                      <circle cx="8" cy="10" r="2"></circle>
+                      <circle cx="16" cy="20" r="2"></circle>
+                      <circle cx="24" cy="13" r="2"></circle>
+                    </svg>
+                    <span data-i18n="creativity">Creativity</span>
+                    <svg class="accordion__chevron" viewBox="0 0 16 16" aria-hidden="true">
+                      <path d="m3 6 5 5 5-5"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  class="accordion__panel"
+                  id="panel-creativity"
+                  role="region"
+                  aria-labelledby="accordion-creativity"
+                  hidden
+                >
+                  <p data-i18n="accordionCreativity">
+                    We bring fresh ideas and thoughtful creative direction to every project, shaping a visual identity that feels distinctive and clear.
+                  </p>
+                </div>
+              </article>
+              <article class="accordion__item">
+                <h3 class="accordion__heading">
+                  <button
+                    class="accordion__trigger"
+                    type="button"
+                    id="accordion-web-design"
+                    aria-expanded="false"
+                    aria-controls="panel-web-design"
+                  >
+                    <svg class="accordion__icon" viewBox="0 0 32 32" aria-hidden="true">
+                      <circle cx="16" cy="16" r="12"></circle>
+                      <circle cx="16" cy="16" r="7"></circle>
+                      <circle cx="16" cy="16" r="2"></circle>
+                    </svg>
+                    <span data-i18n="webDesign">Web design</span>
+                    <svg class="accordion__chevron" viewBox="0 0 16 16" aria-hidden="true">
+                      <path d="m3 6 5 5 5-5"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  class="accordion__panel"
+                  id="panel-web-design"
+                  role="region"
+                  aria-labelledby="accordion-web-design"
+                  hidden
+                >
+                  <p data-i18n="accordionWebDesign">
+                    We design intuitive, responsive websites that balance a polished look with a simple, enjoyable experience on every screen.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 07. TESTIMONIAL / MIJOZ FIKRI ==================== -->
+      <section class="testimonial" aria-label="Testimonials">
+        <div class="testimonial__inner section_content">
+          <button class="testimonial__arrow" type="button" data-testimonial-step="-1" data-testimonial-target="primary" aria-label="Previous testimonial" data-i18n-aria="previousTestimonial">
+            <svg viewBox="0 0 16 24" aria-hidden="true"><path d="m13 2-10 10 10 10"></path></svg>
+          </button>
+          <div class="testimonial__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48">
+              <path d="M8 9h32a3 3 0 0 1 3 3v21a3 3 0 0 1-3 3H24l-9 7v-7H8a3 3 0 0 1-3-3V12a3 3 0 0 1 3-3Z"></path>
+              <path d="M14 18h20M14 25h15"></path>
+            </svg>
+          </div>
+          <figure class="testimonial__content" aria-live="polite" aria-atomic="true">
+            <blockquote class="testimonial__quote" id="testimonial-quote"></blockquote>
+            <figcaption class="testimonial__caption">
+              <span class="testimonial__rule" aria-hidden="true"></span>
+              <cite class="testimonial__author" id="testimonial-author"></cite>
+            </figcaption>
+          </figure>
+          <button class="testimonial__arrow" type="button" data-testimonial-step="1" data-testimonial-target="primary" aria-label="Next testimonial" data-i18n-aria="nextTestimonial">
+            <svg viewBox="0 0 16 24" aria-hidden="true"><path d="m3 2 10 10L3 22"></path></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- ==================== 08. MEET OUR TEAM ==================== -->
+      <section class="content-section team-section" id="team" aria-labelledby="team-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="teamEyebrow">Who we are</p>
+            <h2 class="section-heading__title" id="team-title" data-i18n="teamTitle">Meet our team</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+            <p class="section-heading__description" data-i18n="teamDescription">A small team of curious minds, bringing thoughtful ideas to life.</p>
+          </header>
+          <div class="team-grid">
+            <article class="team-card">
+              <div class="team-card__photo">
+                <!-- Portretni almashtirish: pictures/team/matthew-photo.png -->
+                <img src="../pictures/team/matthew-photo.png" alt="Matthew Dix" width="380" height="470" loading="lazy">
+                <div class="team-card__social" aria-label="Social media links">
+                  <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+                  <a href="https://www.twitter.com/" aria-label="X">𝕏</a>
+                  <a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+                  <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+                </div>
+              </div>
+              <h3 class="team-card__name">Matthew Dix</h3>
+              <p class="team-card__role" data-i18n="teamRoleDesign">Graphic design</p>
+            </article>
+            <article class="team-card">
+              <div class="team-card__photo">
+                <!-- Portretni almashtirish: pictures/team/christopher-photo.png -->
+                <img src="../pictures/team/christopher-photo.png" alt="Christopher Campbell" width="380" height="470" loading="lazy">
+                <div class="team-card__social" aria-label="Social media links">
+                  <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+                  <a href="https://www.twitter.com/" aria-label="X">𝕏</a>
+                  <a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+                  <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+                </div>
+              </div>
+              <h3 class="team-card__name">Christopher Campbell</h3>
+              <p class="team-card__role" data-i18n="teamRoleBranding">Branding/UX design</p>
+            </article>
+            <article class="team-card">
+              <div class="team-card__photo">
+                <!-- Portretni almashtirish: pictures/team/michael-photo.png -->
+                <img src="../pictures/team/michael-photo.png" alt="Michael Fertig" width="380" height="470" loading="lazy">
+                <div class="team-card__social" aria-label="Social media links">
+                  <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+                  <a href="https://www.twitter.com/" aria-label="X">𝕏</a>
+                  <a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+                  <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+                </div>
+              </div>
+              <h3 class="team-card__name">Michael Fertig</h3>
+              <p class="team-card__role" data-i18n="teamRoleDeveloper">Developer</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 09. PARTNERS ==================== -->
+      <section class="partners" aria-label="Partners">
+        <div class="content-container partners__inner">
+          <img class="partners__image" src="../pictures/partners/logos-row.png" alt="MoGo partner logos" width="1212" height="149" loading="lazy">
+        </div>
+      </section>
+
+      <!-- ==================== 10. SOME OF OUR WORK ==================== -->
+      <section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="portfolioEyebrow">What we do</p>
+            <h2 class="section-heading__title" id="portfolio-title" data-i18n="portfolioTitle">Some of our work</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+            <p class="section-heading__description" data-i18n="portfolioDescription">A selection of ideas shaped with care, craft, and a little curiosity.</p>
+          </header>
+        </div>
+        <div class="portfolio-grid">
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 1: pictures/gallery/beach-person-photo.png -->
+            <img src="../pictures/gallery/beach-person-photo.png" alt="A person looking out over the ocean" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 2: pictures/gallery/modern-architecture-photo.png -->
+            <img src="../pictures/gallery/modern-architecture-photo.png" alt="Curved modern architecture" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card portfolio-card--tall" href="#contact">
+            <!-- Rasm 3 (ikki qator): pictures/gallery/jellyfish-photo.png -->
+            <img src="../pictures/gallery/jellyfish-photo.png" alt="Jellyfish floating in deep blue water" width="480" height="960" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 4: pictures/gallery/glass-ceiling-photo.png -->
+            <img src="../pictures/gallery/glass-ceiling-photo.png" alt="A geometric glass dome seen from below" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 5: pictures/gallery/golden-gate-bridge-photo.png -->
+            <img src="../pictures/gallery/golden-gate-bridge-photo.png" alt="A suspension bridge above the clouds" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 6: pictures/gallery/creative-interior-photo.png -->
+            <img src="../pictures/gallery/creative-interior-photo.png" alt="An artistic interior photographed from below" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+          <a class="portfolio-card" href="#contact">
+            <!-- Rasm 7: pictures/gallery/skyscraper-photo.png -->
+            <img src="../pictures/gallery/skyscraper-photo.png" alt="A skyscraper rising into the sky" width="480" height="480" loading="lazy">
+            <span class="portfolio-card__overlay"><span class="portfolio-card__symbol">◎</span><strong data-i18n="portfolioProject">Creative project</strong><small data-i18n="portfolioCaption">Beautifully designed</small></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ==================== 11. SECOND TESTIMONIAL ==================== -->
+      <section class="testimonial testimonial--portrait" aria-label="Client testimonial">
+        <div class="testimonial__inner section_content">
+          <button class="testimonial__arrow" type="button" data-testimonial-step="-1" data-testimonial-target="secondary" aria-label="Previous testimonial" data-i18n-aria="previousTestimonial">
+            <svg viewBox="0 0 16 24" aria-hidden="true"><path d="m13 2-10 10 10 10"></path></svg>
+          </button>
+          <!-- Portretni almashtirish: pictures/testimonial/joshua-earle-photo.png -->
+          <img class="testimonial__portrait" src="../pictures/testimonial/joshua-earle-photo.png" alt="" width="150" height="150" loading="lazy">
+          <figure class="testimonial__content" aria-live="polite" aria-atomic="true">
+            <blockquote class="testimonial__quote" id="testimonial-quote-secondary"></blockquote>
+            <figcaption class="testimonial__caption">
+              <span class="testimonial__rule" aria-hidden="true"></span>
+              <cite class="testimonial__author" id="testimonial-author-secondary"></cite>
+            </figcaption>
+          </figure>
+          <button class="testimonial__arrow" type="button" data-testimonial-step="1" data-testimonial-target="secondary" aria-label="Next testimonial" data-i18n-aria="nextTestimonial">
+            <svg viewBox="0 0 16 24" aria-hidden="true"><path d="m3 2 10 10L3 22"></path></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- ==================== 12. WHAT PEOPLE SAY ==================== -->
+      <section class="client-say" id="clients" aria-labelledby="clients-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="clientsEyebrow">Happy clients</p>
+            <h2 class="section-heading__title" id="clients-title" data-i18n="clientsTitle">What people say</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+          </header>
+          <div class="client-grid section_content">
+            <article class="client-card">
+              <!-- Portretni almashtirish: pictures/clients/matthew-photo.png -->
+              <img src="../pictures/clients/matthew-photo.png" alt="Matthew Dix" width="110" height="110" loading="lazy">
+              <div><h3>Matthew Dix</h3><p class="client-card__role" data-i18n="clientRoleDesigner">Graphic Designer</p><span class="client-card__rule"></span><p class="client-card__quote" data-i18n="clientQuoteOne">A thoughtful team that made every stage of the project feel simple and enjoyable.</p></div>
+            </article>
+            <article class="client-card">
+              <!-- Portretni almashtirish: pictures/clients/nick-photo.png -->
+              <img src="../pictures/clients/nick-photo.png" alt="Nick Karvounis" width="110" height="110" loading="lazy">
+              <div><h3>Nick Karvounis</h3><p class="client-card__role" data-i18n="clientRoleDeveloper">Developer</p><span class="client-card__rule"></span><p class="client-card__quote" data-i18n="clientQuoteTwo">Creative, reliable, and attentive to all the details that matter.</p></div>
+            </article>
+            <article class="client-card">
+              <!-- Portretni almashtirish: pictures/clients/jaelynn-photo.png -->
+              <img src="../pictures/clients/jaelynn-photo.png" alt="Jaelynn Castillo" width="110" height="110" loading="lazy">
+              <div><h3>Jaelynn Castillo</h3><p class="client-card__role" data-i18n="clientRoleDesigner">Graphic Designer</p><span class="client-card__rule"></span><p class="client-card__quote" data-i18n="clientQuoteThree">They listened closely and turned our ideas into a clear visual story.</p></div>
+            </article>
+            <article class="client-card">
+              <!-- Portretni almashtirish: pictures/clients/mike-photo.png -->
+              <img src="../pictures/clients/mike-photo.png" alt="Mike Petrucci" width="110" height="110" loading="lazy">
+              <div><h3>Mike Petrucci</h3><p class="client-card__role" data-i18n="clientRoleDeveloper">Developer</p><span class="client-card__rule"></span><p class="client-card__quote" data-i18n="clientQuoteFour">A polished result, delivered with genuine care and clear communication.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 13. LATEST BLOG ==================== -->
+      <section class="content-section blog-section" id="blog" aria-labelledby="blog-title">
+        <div class="content-container section_content">
+          <header class="section-heading">
+            <p class="section-heading__eyebrow" data-i18n="blogEyebrow">Our stories</p>
+            <h2 class="section-heading__title" id="blog-title" data-i18n="blogTitle">Latest blog</h2>
+            <span class="section-heading__divider" aria-hidden="true"></span>
+          </header>
+          <div class="blog-grid">
+            <article class="blog-card">
+              <a class="blog-card__image" href="#contact">
+                <!-- Blog rasmi: pictures/blog/blog-01-photo.png -->
+                <img src="../pictures/blog/blog-01-photo.png" alt="A creative professional working at a desk" width="380" height="240" loading="lazy">
+                <time datetime="2026-05-15"><strong>15</strong><span data-i18n="monthMay">May</span></time>
+              </a>
+              <h3><a href="#contact" data-i18n="blogTitleOne">A day in the life of a creative team</a></h3>
+              <p data-i18n="blogDescriptionOne">A few notes on the little habits that help good ideas grow.</p>
+              <div class="blog-card__meta">
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 4C6.7 4 2.4 7.4.8 12c1.6 4.6 5.9 8 11.2 8s9.6-3.4 11.2-8C21.6 7.4 17.3 4 12 4Zm0 13a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"></path>
+                    <circle class="blog-card__eye-pupil" cx="12" cy="12" r="2.5"></circle>
+                  </svg>
+                  <span>542</span>
+                </span>
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.5c-6.1 0-11 4-11 9 0 2.7 1.5 5.1 4 6.7V22l4.5-2.4c.8.2 1.7.3 2.5.3 6.1 0 11-3.9 11-8.9s-4.9-8.5-11-8.5Z"></path>
+                    <circle cx="7.5" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="12" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="16.5" cy="11.5" r="1" fill="#fff"></circle>
+                  </svg>
+                  <span>17</span>
+                </span>
+              </div>
+            </article>
+            <article class="blog-card">
+              <a class="blog-card__image" href="#contact">
+                <!-- Blog rasmi: pictures/blog/blog-02-photo.png -->
+                <img src="../pictures/blog/blog-02-photo.png" alt="Laptop and notebook on a desk" width="380" height="240" loading="lazy">
+                <time datetime="2026-05-14"><strong>14</strong><span data-i18n="monthMay">May</span></time>
+              </a>
+              <h3><a href="#contact" data-i18n="blogTitleTwo">Finding inspiration in everyday details</a></h3>
+              <p data-i18n="blogDescriptionTwo">How to stay curious and notice the things around you.</p>
+              <div class="blog-card__meta">
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 4C6.7 4 2.4 7.4.8 12c1.6 4.6 5.9 8 11.2 8s9.6-3.4 11.2-8C21.6 7.4 17.3 4 12 4Zm0 13a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"></path>
+                    <circle class="blog-card__eye-pupil" cx="12" cy="12" r="2.5"></circle>
+                  </svg>
+                  <span>992</span>
+                </span>
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.5c-6.1 0-11 4-11 9 0 2.7 1.5 5.1 4 6.7V22l4.5-2.4c.8.2 1.7.3 2.5.3 6.1 0 11-3.9 11-8.9s-4.9-8.5-11-8.5Z"></path>
+                    <circle cx="7.5" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="12" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="16.5" cy="11.5" r="1" fill="#fff"></circle>
+                  </svg>
+                  <span>42</span>
+                </span>
+              </div>
+            </article>
+            <article class="blog-card">
+              <a class="blog-card__image" href="#contact">
+                <!-- Blog rasmi: pictures/blog/blog-03-photo.png -->
+                <img src="../pictures/blog/blog-03-photo.png" alt="Colleagues reviewing ideas on a tablet" width="380" height="240" loading="lazy">
+                <time datetime="2026-05-12"><strong>12</strong><span data-i18n="monthMay">May</span></time>
+              </a>
+              <h3><a href="#contact" data-i18n="blogTitleThree">Music that helps us focus and create</a></h3>
+              <p data-i18n="blogDescriptionThree">Our favorite sounds for a calm and productive workday.</p>
+              <div class="blog-card__meta">
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 4C6.7 4 2.4 7.4.8 12c1.6 4.6 5.9 8 11.2 8s9.6-3.4 11.2-8C21.6 7.4 17.3 4 12 4Zm0 13a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"></path>
+                    <circle class="blog-card__eye-pupil" cx="12" cy="12" r="2.5"></circle>
+                  </svg>
+                  <span>1560</span>
+                </span>
+                <span class="blog-card__metric">
+                  <svg class="blog-card__metric-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.5c-6.1 0-11 4-11 9 0 2.7 1.5 5.1 4 6.7V22l4.5-2.4c.8.2 1.7.3 2.5.3 6.1 0 11-3.9 11-8.9s-4.9-8.5-11-8.5Z"></path>
+                    <circle cx="7.5" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="12" cy="11.5" r="1" fill="#fff"></circle>
+                    <circle cx="16.5" cy="11.5" r="1" fill="#fff"></circle>
+                  </svg>
+                  <span>98</span>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== 14. OPEN MAP ==================== -->
+      <section class="map-section" id="map">
+        <a class="map-section__link" href="https://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 36 48" aria-hidden="true"><path d="M18 1C8.6 1 1 8.5 1 17.8 1 30 18 47 18 47s17-17 17-29.2C35 8.5 27.4 1 18 1Z"></path><circle cx="18" cy="17" r="6"></circle></svg>
+          <span data-i18n="openMap">Open map</span>
+          <span class="section-heading__divider" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <!-- ==================== 15. FOOTER ==================== -->
+      <footer class="site-footer" id="contact">
+        <div class="content-container section_content">
+          <div class="footer-grid">
+            <section class="footer-about" aria-labelledby="footer-brand">
+              <a class="footer-brand" id="footer-brand" href="#intro">MoGo</a>
+              <p class="footer-about__description" data-i18n="footerDescription">We are a creative team turning thoughtful ideas into engaging digital experiences.</p>
+              <p class="footer-followers"><strong>15k</strong> <span data-i18n="followers">followers</span></p>
+              <div class="footer-social"><span data-i18n="followUs">Follow Us:</span><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.twitter.com/" aria-label="X">𝕏</a><a href="https://www.instagram.com/" aria-label="Instagram">◎</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a></div>
+              <form class="subscribe-form" id="subscribe-form" novalidate>
+                <label class="visually-hidden" for="subscribe-email" data-i18n="emailAddress">Email address</label>
+                <input id="subscribe-email" name="email" type="email" autocomplete="email" placeholder="Your Email..." data-i18n-placeholder="emailPlaceholder" required>
+                <button type="submit" data-i18n="subscribe">Subscribe</button>
+              </form>
+              <p class="subscribe-message" id="subscribe-message" aria-live="polite"></p>
+            </section>
+            <section class="footer-blogs" aria-labelledby="footer-blogs-title">
+              <h2 id="footer-blogs-title" data-i18n="footerBlogs">Blogs</h2>
+              <article class="footer-blog">
+                <img src="../pictures/footer/blog-photo-01.png" alt="" width="120" height="80" loading="lazy">
+                <div><h3 data-i18n="blogTitleOne">A day in the life of a creative team</h3><time datetime="2026-05-15" data-i18n="footerDateMay15">May 15, 2026</time></div>
+              </article>
+              <article class="footer-blog">
+                <img src="../pictures/footer/blog-photo-02.png" alt="" width="120" height="80" loading="lazy">
+                <div><h3 data-i18n="blogTitleTwo">Finding inspiration in everyday details</h3><time datetime="2026-05-14" data-i18n="footerDateMay14">May 14, 2026</time></div>
+              </article>
+              <article class="footer-blog">
+                <img src="../pictures/footer/blog-photo-03.png" alt="" width="120" height="80" loading="lazy">
+                <div><h3 data-i18n="blogTitleThree">Music that helps us focus and create</h3><time datetime="2026-05-12" data-i18n="footerDateMay12">May 12, 2026</time></div>
+              </article>
+            </section>
+            <section class="footer-instagram" aria-labelledby="footer-instagram-title">
+              <h2 id="footer-instagram-title" data-i18n="instagram">Instagram</h2>
+              <div class="instagram-grid">
+                <img src="../pictures/footer/instagram-photo-01.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-02.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-03.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-04.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-05.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-06.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-07.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-08.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+                <img src="../pictures/footer/instagram-photo-09.png" alt="Creative gallery image" width="88" height="88" loading="lazy">
+              </div>
+              <a class="instagram-more" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" data-i18n="viewMorePhotos">View more photos</a>
+            </section>
+          </div>
+          <div class="footer-bottom"><p data-i18n="copyright">© 2026 MoGo. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

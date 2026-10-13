@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs><radialGradient id="glass"><stop stop-color="#fff"/><stop offset=".6" stop-color="#f4f4f2"/><stop offset="1" stop-color="#c9ccca"/></radialGradient></defs>
+  <path fill="#e3e4e2" d="M0 0h480v480H0z"/>
+  <circle cx="240" cy="240" r="235" fill="url(#glass)"/>
+  <circle cx="240" cy="240" r="218" fill="none" stroke="#b7bab9" stroke-width="10"/>
+  <circle cx="240" cy="240" r="173" fill="none" stroke="#d1d3d2" stroke-width="8"/>
+  <circle cx="240" cy="240" r="116" fill="none" stroke="#c1c4c2" stroke-width="8"/>
+  <circle cx="240" cy="240" r="58" fill="none" stroke="#c1c4c2" stroke-width="8"/>
+  <g stroke="#c4c7c6" stroke-width="9">
+    <path d="M240 5v470M5 240h470M74 74l332 332M406 74 74 406M151 18l89 222 89-222M329 462l-89-222-89 222M18 151l222 89 222-89M462 329l-222-89-222 89"/>
+  </g>
+  <g stroke="#fff" stroke-opacity=".95" stroke-width="4">
+    <path d="M240 20v440M20 240h440M88 88l304 304M392 88 88 392"/>
+  </g>
+  <circle cx="240" cy="240" r="19" fill="#f8f8f7" stroke="#bfc2c1" stroke-width="7"/>
+</svg>
